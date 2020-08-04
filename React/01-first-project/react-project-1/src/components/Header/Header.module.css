@@ -1,0 +1,30 @@
+@font-face {
+    font-family: mr_KindlyJasmineG;
+    src: url("../../fonts/19516.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header{
+    grid-area: h;
+    background: #ffd5d2;
+    height: 100px;
+    width:1980px;
+    border-radius: 0 0 0 40px;
+}
+
+.header img{
+    height: 100%;
+    border-radius: 90px;
+    margin-left: 20px;
+    float: left;
+}
+
+.abstract{
+    font-family: mr_KindlyJasmineG;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 80px;
+    white-space: nowrap;
+}

@@ -1,0 +1,28 @@
+.post_card{
+    height: 300px;
+    width: fit-content;
+    background-color: #e3a4a4;
+    margin-bottom: 15px;
+    border-radius: 0 45px 45px 45px;
+}
+
+.post_card img{
+    height: 270px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 0 0 0 45px;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.post_card .preview_text{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: #f6e7e7;
+    border-radius: 0 45px 45px 45px;
+    height: 85%;
+    overflow-x: hidden;
+    text-align: justify;
+    max-width: 500px;
+}

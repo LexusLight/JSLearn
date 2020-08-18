@@ -1,18 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
+import Dialogs from "./components/Dialogs/Dialogs";
 import Profile from "./components/Profile/Profile";
+import {BrowserRouter,Route} from "react-router-dom"
 
 
-const App = () => {
+const App = (props) => {
   return (
-    <div className="app-wrapper">
-        <Header></Header>
-        <Navbar></Navbar>
-        <Profile></Profile>
-    </div>
+      <BrowserRouter>
+          <div className="app-wrapper">
+              <Header/>
+              <Navbar/>
+              <div>
+                  <Route path='/dialogs' render={() =>  <Dialogs/>} /> {/*components или render*/}
+                  <Route path='/profile' render={() =>  <Profile data={props.data} addMessage={props.addMessage} />}/>
+              </div>
+          </div>
+      </BrowserRouter>
   );
 }
 

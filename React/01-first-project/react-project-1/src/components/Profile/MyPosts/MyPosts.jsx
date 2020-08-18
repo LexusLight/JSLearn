@@ -1,19 +1,36 @@
 import React from "react";
-import classes from './MyPosts.module.css';
+import style from './MyPosts.module.css';
 import Post from "./Post/Post";
 
-const MyPosts = () => {
+
+const MyPosts = (props) => {
+
+    let render_all_posts = (item) => {
+         return item.messages.map(el=> <Post message={el} />);
+    }
+
+    let textarea_ref = React.createRef()
+
+    let add_post = () => {
+        props.addMessage(textarea_ref.current.value);
+        textarea_ref.current.value = "";
+    }
+
     return(
         <div>
-            <div className={classes.posts_wall}>
+            <div className={style.posts_wall}>
                 Стена
             </div>
+            <div className={style.post_form_block}>
+                <textarea className={style.textarea} ref={textarea_ref}/>
+                <br/>
+                <button onClick={add_post}>Отправить</button>
+            </div>
             <br/>
-            <Post text="Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер Привет, меня зовут Макс Штирнер" likes="33" image="https://sun9-55.userapi.com/c857332/v857332437/1732b5/joj6Q2Z7r3Q.jpg"/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <div>
+                {render_all_posts(props.data)}
+            </div>
+
         </div>
     )
 }

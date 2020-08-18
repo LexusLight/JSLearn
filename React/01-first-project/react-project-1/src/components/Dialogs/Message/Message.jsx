@@ -1,12 +1,15 @@
 import React from "react";
+import style from "./Message.module.css";
 
 
-const Dialog = () => {
+const Message = () => {
     return(
-        <div>
-              Диалог
+        <div className={style.messages}>
+            <div className={style.message}> Hi </div>
+            <div className={style.message}> Yo </div>
+            <div className={style.message}> Heey </div>
         </div>
     )
 }
 
-export default Dialog
+export default Message

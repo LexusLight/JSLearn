@@ -1,18 +1,19 @@
 import React from "react";
-import classes from './Profile.module.css';
+import style from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
 
-const Profile = () => {
+
+const Profile = (props) => {
     return(
-        <div className={classes.content}>
+        <div className={style.content}>
             <div>
-                <div className={classes.hat}>
-                    <img src="https://sun9-19.userapi.com/v0KS4WtOc-I3f18YWp19w8xTI2-YKLpqJGLDrQ/0M8pANz4QgE.jpg" className={classes.hat_avatar}></img>
+                <div className={style.hat}>
+                    <img alt="бла" src="https://sun9-19.userapi.com/v0KS4WtOc-I3f18YWp19w8xTI2-YKLpqJGLDrQ/0M8pANz4QgE.jpg" className={style.hat_avatar}/>
                 </div>
-                <div className={classes.profile_link}>
+                <div className={style.profile_link}>
                     @Lexuslight
                 </div>
-                <MyPosts/>
+                <MyPosts data={props.data} addMessage={props.addMessage}/>
             </div>
         </div>
     )

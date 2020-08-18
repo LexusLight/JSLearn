@@ -1,7 +1,15 @@
 .posts_wall{
-    font-family: mr_KindlyJasmineG;
+    font-family: mr_KindlyJasmineG, serif;
     font-size: 50px;
 }
-.post{
+.post_form{
+}
 
+.post_form_block{
+    height: 100px;
+}
+
+.textarea{
+    resize: none;
+    width: 500px;
 }

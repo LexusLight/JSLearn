@@ -1,43 +1,30 @@
 import React from "react";
-import style from './base.module.css'
+import style from './base.module.css';
 
 
-const Event = () => {
+const Conditional_render = (props:any) => {
 
-    const preventEvent = (e:any) => {
-        e.preventDefault()
-        alert("Событие перехда перехвачено.")
+    function UserGreeting(props:any) {
+        return <h1 className={style.center}>С возвращением!</h1>;
     }
 
-    return (
-        <div className={style.center}>
-            <a  href={'https://google.com'} onClick={preventEvent}>Гугл</a>
-        </div>
+    function GuestGreeting(props:any) {
+        return <h1 className={style.center}>Войдите, пожалуйста.</h1>;
+    }
+
+    const Greeting = (fakeprop:any) => {
+        const isLoggedIn = fakeprop.logged;
+        if (isLoggedIn) {
+            return <UserGreeting />;
+        }
+        return <GuestGreeting />;
+    }
+
+    return(
+        // Попробуйте заменить на isLoggedIn={true} и посмотрите на эффект.
+        <Greeting logged={false}/>
     );
 }
 
-export default  Event;
+export default Conditional_render;
 
-/* тоже самое на классовых компонентах
-class Toggle extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {isToggleOn: true};
-
-        // Эта привязка обязательна для работы `this` в колбэке.    this.handleClick = this.handleClick.bind(this);  }
-
-        handleClick() {    this.setState(state => ({
-            isToggleOn: !state.isToggleOn
-            }));  }
-        render() {
-            return (
-                <button onClick={this.handleClick}> {this.state.isToggleOn ? 'Включено' : 'Выключено'}
-                </button>
-            );
-        }
-    }
-
-    ReactDOM.render(
-<Toggle />,
-    document.getElementById('root')
-);*/

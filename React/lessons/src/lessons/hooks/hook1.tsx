@@ -1,6 +1,6 @@
 import React from "react";
 import {useState} from "react";
-import style from './style.module.css'
+import style from './hook.module.css'
 
 
 const Hook1 = () => {

@@ -3,7 +3,7 @@ import style from './base.module.css'
 
 function LoginButton(props:any) {
     return (
-        <div>
+        <div className={style.center}>
             Вы не вошли.
             <button onClick={props.onClick}>
                 Войти
@@ -15,7 +15,7 @@ function LoginButton(props:any) {
 
 function LogoutButton(props:any) {
     return (
-        <div>
+        <div className={style.center}>
             Вы вошли
             <button onClick={props.onClick}>
                 Выйти

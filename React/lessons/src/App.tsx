@@ -8,6 +8,7 @@ import Conditional_render from "./lessons/base/conditional_rendering";
 import Variable_element from "./lessons/base/element_in_variable";
 import Lists_and_keys from "./lessons/base/lists_and_keys";
 import Forms from "./lessons/base/forms";
+import Temperature from "./lessons/base/temperature";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
               <li><NavLink to={'/base3'}>Элемент-переменная + интерфейсы + классавая компонента</NavLink></li>
               <li><NavLink to={'/base4'}>Листы,ключи,Map</NavLink></li>
               <li><NavLink to={'/base5'}>Формы</NavLink></li>
+              <li><NavLink to={'/base6'}>Температура</NavLink></li>
 
           </ul>
 
@@ -30,6 +32,7 @@ const App = () => {
               <Route path={'/base3'}><Variable_element/></Route>
               <Route path={'/base4'}><Lists_and_keys/></Route>
               <Route path={'/base5'}><Forms/></Route>
+              <Route path={'/base6'}><Temperature/></Route>
 
           </BrowserRouter>
       </div>

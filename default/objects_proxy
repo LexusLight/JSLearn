@@ -1,0 +1,32 @@
+// Objects
+const person = {
+    name: "Lexus",
+    age: 25,
+    job: "Oficiant MCDonalds"
+}
+
+const op = new Proxy(person, {
+    get(target,prop){
+        console.log('Target ', target); //Переданный объект
+        console.log('Prop ', prop); //Поле переданного объектв
+        return target[prop];
+    },
+
+    set(target, prop, value) {
+        if(prop in target){
+            target[prop] = value;
+        }else{
+            console.log("Такого свойства нет")
+        }
+    },
+
+    has(target,prop){ //'name' in op
+        return ['age', 'name', 'job'].includes(prop)
+    },
+
+    deleteProperty(target, prop) { //delete op.name
+        console.log("Deleting...", prop);
+        delete target[prop]
+        return true
+    },
+})

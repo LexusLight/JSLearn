@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70df0a82-3c37-4a9c-a4d8-e681562a9cb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bla/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/src/lessons/mobx/mobx.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/src/lessons/mobx/timer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/src/lessons/mobx/timerstate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/mobx/mobx.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/mobx/timer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/mobx/timerstate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/react-project-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/State/State.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/.idea/Dialogs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Dialogs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Dialogs.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Message/Message.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Message/Message.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Users/Users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Dialogs/Users/Users.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Header/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Navbar/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Navbar/Navbar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/components/Profile/Profile.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/fonts/19516.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/react-project-1/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/01-first-project/Бла.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/lessons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/base.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/conditional_rendering.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/element_in_variable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/evenst.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/forms.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/lists_and_keys.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/base/temperature.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/hooks/hook.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/lessons/hooks/hook1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/lessons/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ibNE2SkE2YPcnDfXoQQNS7GKSD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lessons/src/lessons/mobx" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\GitHub\JSLearn\React+MobX\lessons\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\JSLearn\React+MobX\lessons\src\lessons\mobx" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70df0a82-3c37-4a9c-a4d8-e681562a9cb6" name="Default Changelist" comment="" />
+      <created>1602172218119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602172218119</updated>
+      <workItem from="1602172219792" duration="14227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602182216897">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="421" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864@62.0.1474.864" timestamp="1602182216897" />
+    <state x="579" y="173" key="FileChooserDialogImpl" timestamp="1602184097470">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state x="579" y="173" key="FileChooserDialogImpl/63.0.1473.864@63.0.1473.864" timestamp="1602184097470" />
+    <state x="617" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602184480701">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state x="617" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/63.0.1473.864@63.0.1473.864" timestamp="1602184480701" />
+  </component>
+</project>
